@@ -43,6 +43,30 @@
       background-color: #000;
       color: #fff; }
 
+.jobs .content {
+  width: 55rem;
+  padding: 2rem; }
+  .jobs .content h3 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #bebebe; }
+  .jobs .content p {
+    line-height: 2;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 5rem 0; }
+  .jobs .content .link-btn {
+    display: inline-block;
+    padding: 1rem .5rem;
+    border-radius: .5rem;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-size: .8rem;
+    color: #fff; }
+    .jobs .content .link-btn:hover {
+      background-color: #000;
+      color: #fff; }
+
 footer h4 {
   color: #fff;
   font-size: 1rem;
