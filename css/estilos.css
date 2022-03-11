@@ -1,5 +1,73 @@
+.header {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem; }
+  .header .logo {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #ee5253; }
+    .header .logo span {
+      color: #bebebe; }
+  .header .nav a {
+    margin: 0 4rem;
+    color: #fff;
+    text-decoration: none; }
+
 * {
   padding: 0px;
   margin: 0px;
   font-family: 'Poppins', sans-serif;
   font-family: 'Prompt', sans-serif; }
+
+.home .content {
+  width: 55rem;
+  padding: 2rem; }
+  .home .content h3 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #bebebe; }
+  .home .content p {
+    line-height: 2;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 5rem 0; }
+  .home .content .link-btn {
+    display: inline-block;
+    padding: 1rem .5rem;
+    border-radius: .5rem;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-size: .8rem;
+    color: #fff; }
+    .home .content .link-btn:hover {
+      background-color: #000;
+      color: #fff; }
+
+footer h4 {
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: .5rem; }
+
+.bgIndex {
+  background: url(../assets/img/bgIndex.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.bgTrabajos {
+  background: url(../assets/img/bgTrabajos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.bgAbout {
+  background: url(../assets/img/bgAbout.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.bgContacto {
+  background: url(../assets/img/bgContacto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
