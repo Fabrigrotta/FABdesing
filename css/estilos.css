@@ -67,6 +67,13 @@
       background-color: #000;
       color: #fff; }
 
+.fotos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .fotos img {
+    padding: 0.5rem; }
+
 footer h4 {
   color: #fff;
   font-size: 1rem;
