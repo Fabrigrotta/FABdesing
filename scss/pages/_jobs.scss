@@ -17,6 +17,16 @@ $vistas: jobs;
                     padding: 5rem 0 0;
                 }
             }
+            .row{
+                .fotosAbajo {
+                    display: flex;
+                    flex-direction: column;
+                        img{
+                            padding: 5rem 0;
+                        }
+                    }
+                }
+            }
         }
     }
     @if $vistas == jobs {
@@ -36,6 +46,14 @@ $vistas: jobs;
                     padding: 5rem 0;
                 }
             }
+            .row{
+                .fotosAbajo {
+                    display: flex;
+                    flex-direction: row;
+                    img {
+                        padding: 3.7rem;
+                    }
+                }
+            }
         }
     }
-}

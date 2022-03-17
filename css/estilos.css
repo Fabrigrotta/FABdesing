@@ -75,21 +75,31 @@
       line-height: 2;
       font-size: 1rem;
       color: #fff;
-      padding: 5rem 0 0; } }
+      padding: 5rem 0 0; }
+  .jobs .row .fotosAbajo {
+    display: flex;
+    flex-direction: column; }
+    .jobs .row .fotosAbajo img {
+      padding: 5rem 0; } }
 
 @media only screen and (min-width: 1023px) {
-  .jobs .content {
+  .content {
     width: 55rem;
     padding: 2rem; }
-    .jobs .content h3 {
+    .content h3 {
       font-size: 5rem;
       text-transform: uppercase;
       color: #bebebe; }
-    .jobs .content p {
+    .content p {
       line-height: 2;
       font-size: 1.5rem;
       color: #fff;
-      padding: 5rem 0; } }
+      padding: 5rem 0; }
+  .row .fotosAbajo {
+    display: flex;
+    flex-direction: row; }
+    .row .fotosAbajo img {
+      padding: 3.7rem; } }
 
 @media only screen and (min-width: 1023px) {
   .about .content h3 {
@@ -104,9 +114,9 @@
 
 @media only screen and (min-width: 1023px) {
   .contact h2 {
-    color: #fff; }
+    color: #000; }
   .contact p {
-    color: #fff; } }
+    color: #000; } }
 
 * {
   padding: 0px;
@@ -120,12 +130,6 @@
   flex-wrap: wrap; }
   .fotos img {
     padding: 0.5rem; }
-
-.fotosAbajo {
-  display: flex;
-  flex-direction: row; }
-  .fotosAbajo img {
-    padding: 3.7rem; }
 
 .bgIndex {
   background: url(../assets/img/bgIndex.jpg);

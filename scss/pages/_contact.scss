@@ -8,10 +8,10 @@ $vistas: contact;
     @if $vistas == contact {
         @media only screen and (min-width: 1023px){
                 h2 {
-                    color: $white;
+                    color: $black;
                 }
                 p {
-                    color: $white;
+                    color: $black;
                 }
             }
         }
