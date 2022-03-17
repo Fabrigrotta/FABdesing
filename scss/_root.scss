@@ -25,6 +25,91 @@
     }
 }
 
+// Sidebar
+@for $i from 1 through 4 {
+    .button-#{$i}{
+        margin-top: $i *5rem;
+    }
+}
+
+
+//echa
+
+@mixin social {
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+
+$redes:(
+    facebook: #3a5795,
+    twitter:#55acee,
+    github:#080808,
+    whatssapp:#00bb2d
+);
+
+
+@each $red, $color in $redes {
+    .btn--#{$red}{
+        background-color: $color;
+        @include social;
+    }
+}
+
+
+
+//extend
+
+
+
+
+.button{
+    border: none;
+    padding: 15px 30px;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px #000;
+}
+.green{
+    @extend .button;
+    background-color: green;
+    color: white;
+}
+.yellow{
+    @extend .button;
+    background-color: yellow;
+    color: white;
+}
+.red{
+    @extend .button;
+    background-color: red;
+    color: white;
+}
+
+
+
+
+
+
+
+.sidebar{
+    top: 35%;
+    left: 35%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 65%;
+    transition: all 0.5s;
+}
+.bar:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
+    transition: all 0.5s;
+
+}
+
 // Footer
 $foo: foot;
 

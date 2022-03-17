@@ -1,0 +1,13 @@
+En el archivo index.html sumé el SEO con las siguientes características:
+
+Descripción:
+mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: "Sitio web personal dedicado a el diseño y la programacion de paginas".
+
+Palabras clave:
+mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio:"diseño,paginas,web,programacion,diseñador".
+
+Encabezado: Para mi titulo puse el nombre de la pagina "FABdesing"
+
+<!-- Metas SEO -->
+    <meta name="description" content="Sitio web personal dedicado a el diseño y la programacion de paginas">
+    <meta name="keyword" content="diseño,paginas,web,programacion,diseñador">
