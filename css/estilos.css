@@ -9,6 +9,7 @@
     .header .logo span {
       color: #bebebe; }
   .header .nav a {
+    font-size: 1.1rem;
     margin: 0 4rem;
     color: #fff;
     text-decoration: none; }
@@ -90,6 +91,23 @@
       color: #fff;
       padding: 5rem 0; } }
 
+@media only screen and (min-width: 1023px) {
+  .about .content h3 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #bebebe; }
+  .about .content p {
+    line-height: 1;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #fff; } }
+
+@media only screen and (min-width: 1023px) {
+  .contact h2 {
+    color: #fff; }
+  .contact p {
+    color: #fff; } }
+
 * {
   padding: 0px;
   margin: 0px;
@@ -102,6 +120,12 @@
   flex-wrap: wrap; }
   .fotos img {
     padding: 0.5rem; }
+
+.fotosAbajo {
+  display: flex;
+  flex-direction: row; }
+  .fotosAbajo img {
+    padding: 3.7rem; }
 
 .bgIndex {
   background: url(../assets/img/bgIndex.jpg);

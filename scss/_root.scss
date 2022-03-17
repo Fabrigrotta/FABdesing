@@ -15,6 +15,14 @@
     }
 }
 
+.fotosAbajo {
+    display: flex;
+    flex-direction: row;
+    img {
+        padding: 3.7rem;
+    }
+}
+
 // Fondos
 @each $background in bgIndex, bgTrabajos,bgAbout,bgContacto {
     .#{$background}{
