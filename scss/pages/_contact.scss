@@ -16,3 +16,57 @@ $vistas: contact;
             }
         }
     }
+
+
+// Extends
+.button {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    color: $white;
+    background-color: $black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button-aceptar{
+    @extend .button;
+    background-color: $red;
+}
+
+.button-denegar{
+    @extend .button;
+    background-color: $grey;
+    color: $red;
+    border: none
+}
+
+// Mixins
+@mixin colorBackground {
+    background-color: $redPastel;
+}
+
+.card {
+    @include colorBackground;
+}
+
+// Mapget
+$estilos:(
+    color:red,
+    centro:center,
+    tFuente:20px,
+    bgColor:white
+);
+
+.textPrueba {
+    color:map-get($estilos,color);
+    text-align: map-get($estilos,centro);
+    font-size: map-get($estilos,tFuente);
+    background-color: map-get($estilos,bgColor);
+}
+
+
+
+
+// No son cosas que creo usar, tal vez el mixins, pero no el extend
+
