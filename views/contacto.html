@@ -46,117 +46,74 @@
         </div>
     </div>
     </header>
-    <main class="container">
 
-<div class="card row">
-    <section class="mb-4 contact justify-content-center">
-        <div class="">
-    
-        <!--Section heading-->
-        <h2 class="h1-responsive text-center my-4">Contactame</h2>
-        <!--Section description-->
-        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-            a matter of hours to help you.</p>
-    
-        <div class="row">
-    
-            <!--Grid column-->
-            <div class="col-md-9 mb-md-0 mb-5">
-                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-                    <!--Grid row-->
-                    <div class="row">
-                        <!--Grid column-->
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <input type="text" id="name" name="name" class="form-control">
-                                <label for="name" class="">Your name</label>
-                            </div>
-                        </div>
-                        <!--Grid column-->
-                        <!--Grid column-->
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <input type="text" id="email" name="email" class="form-control">
-                                <label for="email" class="">Your email</label>
-                            </div>
-                        </div>
-                        <!--Grid column-->
-                    </div>
-                    <!--Grid row-->
-                    <!--Grid row-->
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="md-form mb-0">
-                                <input type="text" id="subject" name="subject" class="form-control">
-                                <label for="subject" class="">Subject</label>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Grid row-->
-                    <!--Grid row-->
-                    <div class="row">
-                        <!--Grid column-->
-                        <div class="col-md-12">
-                            <div class="md-form">
-                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                <label for="message">Your message</label>
+
+    <main class="mainContact">
+        <section class="ftco-section">
+            <div class="container formulario">
+                <div class="row justify-content-center">
+                    <div data-aos="fade-right" class="col-lg-10 col-md-12">
+                        <div class="wrapper">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <div class="contact-wrap">
+                                        <h3 class="mb-4 text-center">Contactame</h3>
+                                        <div id="form-message-warning" class="mb-4 w-100 text-center"></div>
+                                <div class="mb-4 w-100 text-center">
+                                <p>Espacio libre para sacarte tus dudas, dejar criticas constructivas o comentarme algo</p>
+                                </div>
+                                        <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="name" id="name" placeholder="Nombre">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <textarea name="message" class="form-control" id="message" cols="30" rows="8" placeholder="Mensaje"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="submit" value="Enviar mensaje" class="btn btn-primary buttonMSJ">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!--Grid row-->
-                </form>
-                <div class="text-center text-md-left">
-                    <a class="btn btn-primary button" onclick="document.getElementById('contact-form').submit();">Enviar</a>
-                    <a class="btn btn-primary button-denegar" onclick="document.getElementById('contact-form').submit();">Reestablecer</a>
                 </div>
-                <div class="status"></div>
             </div>
-            <!--Grid column-->
-            <!--Grid column-->
-            <div class="col-md-3 text-center">
-                <ul class="list-unstyled mb-0">
-                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                        <p>San Francisco, CA 94126, USA</p>
-                    </li>
-                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                        <p>+ 01 234 567 89</p>
-                    </li>
-                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                        <p>contact@mdbootstrap.com</p>
-                    </li>
-                </ul>
-            </div>
-            <!--Grid column-->
-        </div>
-        </div>
-</div>
-</section>
-<section>
-    <button class="button">PRUEBA1</button>
-    <button class="button-aceptar">PRUEBA2</button>
-    <button class="button-denegar">PRUEBA3</button>
-
-    <div class="textPrueba">
-        <h3>Haciendo un map get triste</h3>
-        <p>No era mi idea hacerlo de esta manera, pero me volvi un poco loco aplicando algunas cositas como los extends, mixins y mapGets. Claramente voy a borrar estas cosas. Solamente queria aplicarlo para que pueda ser corregido al menos en la forma que esta realizado.
-        </p>
-    </div>
-</section>
-<section>
-    <div class="sidebar">
-        <div class="btn--facebook bar">
-            <i class="fa-brands fa-facebook"></i>
-        </div>
-        <div class="btn--twitter bar">
-            <i class="fa-brands fa-twitter"></i>
-        </div>
-        <div class="btn--github bar">
-            <i class="fa-brands fa-github"></i>
-        </div>
-        <div class="btn--whatsapp bar">
-            <i class="fa-brands fa-whatsapp"></i>
-        </div>
-</section>
+        </section>
+        <section>
+            <div class="sidebar">
+                <div class="btn--facebook bar">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="btn--twitter bar">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="btn--github bar">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="btn--whatsapp bar">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+        </section>
 
     </main>
     <div class="container">

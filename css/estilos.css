@@ -112,11 +112,33 @@
     font-weight: 100;
     color: #fff; } }
 
+@media only screen and (max-width: 768px) {
+  .mainContact {
+    padding: 20px; }
+    .mainContact .formulario p {
+      color: #fff;
+      font-size: 1.5rem; }
+    .mainContact .formulario h3 {
+      color: #fff;
+      font-size: 3rem; }
+    .mainContact .formulario .buttonMSJ {
+      color: #fff;
+      background-color: #ff76766e;
+      border: none; } }
+
 @media only screen and (min-width: 1023px) {
-  .contact h2 {
-    color: #000; }
-  .contact p {
-    color: #000; } }
+  .mainContact {
+    padding: 20px; }
+    .mainContact .formulario p {
+      color: #fff;
+      font-size: 1.5rem; }
+    .mainContact .formulario h3 {
+      color: #fff;
+      font-size: 3rem; }
+    .mainContact .formulario .buttonMSJ {
+      color: #fff;
+      background-color: #ff76766e;
+      border: none; } }
 
 .button, .button-aceptar, .button-denegar {
   width: 200px;
@@ -136,7 +158,7 @@
   border: none; }
 
 .card {
-  background-color: #ff7676; }
+  background-color: #ff76766e; }
 
 .textPrueba {
   color: red;

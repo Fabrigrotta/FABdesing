@@ -1,17 +1,43 @@
 $vistas: contact;
 
-.contact {
+.mainContact {
     @if $vistas == contact {
         @media only screen and (max-width: 768px){
+            padding: 20px;
+            .formulario {
+                p{
+                    color: $white;
+                    font-size: 1.5rem;
+                }
+                h3 {
+                    color: $white;
+                    font-size: 3rem;
+                }
+                .buttonMSJ {
+                    color: $white;
+                    background-color: $redPastel;
+                    border: none;
+                }
+            }
         }
     }
     @if $vistas == contact {
         @media only screen and (min-width: 1023px){
-                h2 {
-                    color: $black;
-                }
-                p {
-                    color: $black;
+            padding: 20px;
+                .formulario {
+                    p{
+                        color: $white;
+                        font-size: 1.5rem;
+                    }
+                    h3 {
+                        color: $white;
+                        font-size: 3rem;
+                    }
+                    .buttonMSJ {
+                        color: $white;
+                        background-color: $redPastel;
+                        border: none;
+                    }
                 }
             }
         }
