@@ -167,32 +167,6 @@
       background-color: #ff76766e;
       border: none; } }
 
-.button, .button-aceptar, .button-denegar {
-  width: 200px;
-  height: 40px;
-  font-size: 20px;
-  color: #fff;
-  background-color: #000;
-  border: 1px solid black;
-  border-radius: 5px; }
-
-.button-aceptar {
-  background-color: #ee5253; }
-
-.button-denegar {
-  background-color: #bebebe;
-  color: #ee5253;
-  border: none; }
-
-.card {
-  background-color: #ff76766e; }
-
-.textPrueba {
-  color: red;
-  text-align: center;
-  font-size: 20px;
-  background-color: white; }
-
 .button-1 {
   margin-top: 5rem; }
 
