@@ -125,8 +125,6 @@
     font-size: 7rem;
     text-transform: uppercase;
     color: #ee5253;
-    justify-content: end;
-    align-items: flex-end;
     display: flex;
     flex-direction: column;
     padding: 5rem;
