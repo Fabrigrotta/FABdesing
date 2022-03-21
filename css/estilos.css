@@ -101,16 +101,43 @@
     .row .fotosAbajo img {
       padding: 3.7rem; } }
 
-@media only screen and (min-width: 1023px) {
-  .about .content h3 {
-    font-size: 5rem;
-    text-transform: uppercase;
-    color: #bebebe; }
-  .about .content p {
-    line-height: 1;
+@media only screen and (max-width: 768px) {
+  .about .row h3 {
     font-size: 2rem;
+    text-transform: uppercase;
+    color: #bebebe;
+    justify-content: end;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: end; }
+  .about .row p {
+    line-height: 1;
+    font-size: 1rem;
     font-weight: 100;
-    color: #fff; } }
+    color: #fff;
+    padding: .5rem;
+    text-align: start; } }
+
+@media only screen and (min-width: 1023px) {
+  .about .row h3 {
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: #bebebe;
+    justify-content: end;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    text-align: end; }
+  .about .row p {
+    line-height: 1;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #fff;
+    padding: 1rem;
+    text-align: justify; } }
 
 @media only screen and (max-width: 768px) {
   .mainContact {
