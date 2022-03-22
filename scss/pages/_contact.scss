@@ -24,7 +24,6 @@ $vistas: contact;
     @if $vistas == contact {
         @media only screen and (min-width: 1023px){
             padding: 20px;
-            padding-bottom: 3.9rem;
                 .formulario {
                     p{
                         color: $white;
