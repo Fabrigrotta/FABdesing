@@ -156,7 +156,8 @@
 
 @media only screen and (min-width: 1023px) {
   .mainContact {
-    padding: 20px; }
+    padding: 20px;
+    padding-bottom: 3.9rem; }
     .mainContact .formulario p {
       color: #fff;
       font-size: 1.5rem; }
