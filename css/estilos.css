@@ -130,12 +130,15 @@
     padding: 5rem;
     text-align: end; }
   .about .row p {
-    line-height: 1;
+    line-height: 1.5;
     font-size: 2.5rem;
     font-weight: 100;
     color: #fff;
-    padding: 1rem;
-    text-align: justify; } }
+    padding: 3rem;
+    text-align: justify; }
+  .about .row .textoAbajo {
+    padding-top: 3rem;
+    text-align: center; } }
 
 @media only screen and (max-width: 768px) {
   .mainContact {
